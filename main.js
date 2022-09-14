@@ -21,7 +21,7 @@ function createWindow() {
 	win = new BrowserWindow({
 		width: 700, 
 		height: 500,
-        icon: __dirname + '/logo.png'
+        icon: __dirname + '/assets/icons/png/logo.png'
 	})
 
 	win.loadURL(url.format({
