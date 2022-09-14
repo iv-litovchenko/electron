@@ -1,0 +1,15 @@
+version: '3.0'
+
+services:
+
+    # http://localhost:8009/
+    # docker exec -it <container_id> bash
+    linux-node-npm:
+        container_name: linux-node-npm
+        restart: always
+        # command: npm run debug
+        build: ./.docker/linux-node-npm
+        volumes:
+            - '.:/var/www/html'
+        ports:
+            - '8009:80'
