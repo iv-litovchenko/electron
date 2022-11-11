@@ -17,6 +17,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
 RUN apt-get install -y nodejs
 
 # Install gulp & bower
+RUN npm install --global electron-forge
 RUN npm install --global gulp
 RUN npm install --global grunt
 RUN npm install --global bower
