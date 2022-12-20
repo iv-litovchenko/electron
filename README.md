@@ -10,3 +10,6 @@
 * Сколько я прохожу пешком
 * рисунок на телефоне
 * пароль (шифр)
+
+- http://jasonette.com/
+- https://quasar.dev/introduction-to-quasar
